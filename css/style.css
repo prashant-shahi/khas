@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Khas';
-  src: url('css/webfont/Khas.eot');
-  src: url('css/webfont/Khas.eot?#iefix') format('embedded-opentype'),
-  url('css/webfont/Khas.otf')  format('opentype'),
-  url('css/webfont/Khas.woff') format('woff'),
-  url('css/webfont/Khas.ttf')  format('truetype'),
-  url('css/webfont/Khas.svg#Khas') format('svg');
+  src: url('webfont/Khas.eot');
+  src: url('webfont/Khas.eot?#iefix') format('embedded-opentype'),
+  url('webfont/Khas.otf')  format('opentype'),
+  url('webfont/Khas.woff') format('woff'),
+  url('webfont/Khas.ttf')  format('truetype'),
+  url('webfont/Khas.svg#Khas') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,8 +17,10 @@ body {
 .khas, .khas textarea {
     font-family: 'Khas';
 }
+a {
+	text-decoration: none;
+}
 .download-link>a {
-    text-decoration: none;
     font-size: 20px;
 }
 textarea {

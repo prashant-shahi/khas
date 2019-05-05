@@ -3,7 +3,7 @@ This project is for the web platform for Khas Font. Khas Font currently is a for
 
 
 ## About Khas
-Khas (/kʰəs/ खस) is the language used by [Khas People](https://en.wikipedia.org/wiki/Khas_people "Khas People"). sub-variety of the [devanagari](https://en.wikipedia.org/wiki/Devanagari "Devanagari") script.
+Khas (/kʰəs/ खस) is the language used by [Khas People](https://en.wikipedia.org/wiki/Khas_people "Khas People"). sub-variety of the [Devanagari](https://en.wikipedia.org/wiki/Devanagari "Devanagari") script.
 
 Till the 18th century, Khas language was very common among people of present Nepal and few nearby parts of present India. Later in the 19th century, [Nepali language](https://en.wikipedia.org/wiki/Nepali_language "Nepali") was made from the Khas language. Khas language is believed to be originated from Sinja valley of Jumla. Therefore, the Nepali dialect “Khas Bhasa” is still spoken among the majority people around the region.
 
