@@ -37,6 +37,16 @@
 	.light { color: #f9f9f9; }
 	.dark { color: #343a40; }
 
+	.special-characters {
+		font-family: inherit;
+		font-size: 35;
+	}
+
+	.keyboard-layout {
+		height: 150px;
+		width: auto;
+	}
+
 	button, input[type="button"], input[type="reset"], input[type="submit"] {
 	    cursor: pointer;
 	    -webkit-appearance: button;
@@ -52,35 +62,40 @@
   <div class="khas">
     <textarea id="UnicodeTextarea" rows="8" dir="ltr" style="width: 90%; height: 310px;" placeholder="oxfF v; kmf]]+6\ df 6fOk ug{'xf];\ ."></textarea>
   </div>
-  <div>
-	<button class="special-characters khas">™</button>
-	<button class="special-characters khas">¿</button>
-	<button class="special-characters khas">Ì</button>
-	<button class="special-characters khas">Å</button>
-	<button class="special-characters khas">ç</button>
-	<button class="special-characters khas">ß</button>
-	<button class="special-characters khas">¶</button>
-	<button class="special-characters khas">ß</button>
-	<button class="special-characters khas">Í</button>
-	<button class="special-characters khas">Î</button>
-	<button class="special-characters khas">Ë</button>
-	<button class="special-characters khas">‹</button>
-	<button class="special-characters khas">•</button>
-	<button class="special-characters khas">ˆ</button>
-	<button class="special-characters khas">˜</button>
-	<button class="special-characters khas">§</button>
-	<button class="special-characters khas">£</button>
-	<button class="special-characters khas">¢</button>
-	<button class="special-characters khas">¥</button>
-	<button class="special-characters khas">Ý</button>
-	<button class="special-characters khas">‰</button>
-	<button class="special-characters khas">¡</button>
-  </div>
   <br/>
-  <hr/><br/>
-  <footer class="dark">
+  <div class="khas">
+	<button class="special-characters">™</button>
+	<button class="special-characters">¿</button>
+	<button class="special-characters">Ì</button>
+	<button class="special-characters">Å</button>
+	<button class="special-characters">ç</button>
+	<button class="special-characters">ß</button>
+	<button class="special-characters">¶</button>
+	<button class="special-characters">ß</button>
+	<button class="special-characters">Í</button>
+	<button class="special-characters">Î</button>
+	<button class="special-characters">Ë</button>
+	<button class="special-characters">‹</button>
+	<button class="special-characters">•</button>
+	<button class="special-characters">ˆ</button>
+	<button class="special-characters">˜</button>
+	<button class="special-characters">§</button>
+	<button class="special-characters">£</button>
+	<button class="special-characters">¢</button>
+	<button class="special-characters">¥</button>
+	<button class="special-characters">Ý</button>
+	<button class="special-characters">‰</button>
+	<button class="special-characters">¡</button>
+  </div>
+  <br/><hr/><br/>
+  <div>
+  	<img class="keyboard-layout" src="keyboard-layout.jpg" />
+  </div>
+  <br/><hr/><br/>
+  <footer class="dark" style="text-align: center;">
    &nbsp;&nbsp;&nbsp;&nbsp;© 2019 - <a class="blue" href="https://github.com/CoolBoi567">Prashant Shahi</a>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script type="text/javascript">
 	$(".special-characters").each(function() {
 		var character = this.innerHTML;
