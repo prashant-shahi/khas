@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Khas';
+  src: url('Khas.eot');
+  src: url('Khas.eot?#iefix') format('embedded-opentype'),
+  url('Khas.otf')  format('opentype'),
+  url('Khas.woff') format('woff'),
+  url('Khas.ttf')  format('truetype'),
+  url('Khas.svg#Khas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-size: x-large;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.preeti, .preeti textarea {
+    font-family: preeti;
+}
+
+.khas, .khas textarea {
+    font-family: 'Khas';
+}
