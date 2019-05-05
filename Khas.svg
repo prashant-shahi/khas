@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg>
 <metadata>
-Created by FontForge 20090622 at Sun May  5 00:57:54 2019
+Created by FontForge 20090622 at Sun May  5 09:52:28 2019
  By deploy user
 Open Source Font - Khas
 </metadata>
@@ -719,12 +719,9 @@ d="M109 29l284 474v-37l-284 -474v37z" />
     <glyph glyph-name="circumflex" unicode="&#x2c6;" horiz-adv-x="349" 
 d="M322 452v-452l-57 55v153q-17 -9 -34.5 -12t-40.5 -3q-25 0 -41.5 8t-40 28.5t-35.5 51.5q-6 16 -9.5 27t-3.5 24v120h-60v49h399v-49h-77zM399 345v-61q-11 0 -16.5 -2t-21.5 -9q-24 -11 -39 -33v73q15 17 35.5 24.5t41.5 7.5zM265 301v151h-147v-157q0 -22 15 -42
 q10 -13 19.5 -18.5t25.5 -5.5q32 0 55 19q15 12 18 16q14 16 14 37z" />
-    <glyph glyph-name="dotaccent" unicode="&#x2d9;" 
- />
-    <glyph glyph-name="ring" unicode="&#x2da;" 
- />
-    <glyph glyph-name="tilde" unicode="&#x2dc;" 
- />
+    <glyph glyph-name="tilde" unicode="&#x2dc;" horiz-adv-x="275" 
+d="M209 485q-9 1 -13 1q-44 0 -77.5 -26t-44.5 -70q-2 -8 -3 -14.5t-1 -15.5q0 -36 17.5 -66.5t45.5 -43.5q40 -18 61.5 -48.5t21.5 -69.5q0 -22 -5 -37q-11 -42 -45 -68t-77 -26q-27 0 -54 12q5 -1 16 -1q45 0 77.5 25.5t43.5 69.5q4 15 4 33q0 36 -16.5 65.5t-46.5 41.5
+q-36 15 -59 49t-23 72q0 16 5 34q12 42 44.5 68t76.5 26q24 0 52 -11z" />
     <glyph glyph-name="uni0344" unicode="&#x344;" horiz-adv-x="0" 
  />
     <glyph glyph-name="uni1E00" unicode="&#x1e00;" horiz-adv-x="265" 
