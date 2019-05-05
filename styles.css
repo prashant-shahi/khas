@@ -8,7 +8,6 @@
   url('Khas.svg#Khas') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-size: x-large;
 }
 
 body {
@@ -17,8 +16,10 @@ body {
 
 .preeti, .preeti textarea {
     font-family: preeti;
+    font-size: 30px;
 }
 
 .khas, .khas textarea {
     font-family: 'Khas';
+    font-size: 30px;
 }
