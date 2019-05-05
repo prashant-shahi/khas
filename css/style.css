@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Khas';
+  src: url('css/webfont/Khas.eot');
+  src: url('css/webfont/Khas.eot?#iefix') format('embedded-opentype'),
+  url('css/webfont/Khas.otf')  format('opentype'),
+  url('css/webfont/Khas.woff') format('woff'),
+  url('css/webfont/Khas.ttf')  format('truetype'),
+  url('css/webfont/Khas.svg#Khas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.khas {
+    font-family: 'Khas';
+}
+.download-link>a {
+    text-decoration: none;
+    font-size: 20px;
+}
+textarea {
+	width: 90%;
+    height: 310px;
+    font-size: 35px;
+}
+
+.red { color: #d9534f; }
+.green { color: #5cb85c; }
+.yellow { color: #ffc107; }
+.blue { color: #5bc0de }
+.skyblue { color: #428bca; }
+.light { color: #f9f9f9; }
+.dark { color: #343a40; }
+
+.special-characters {
+	font-family: inherit;
+	font-size: 35;
+}
+
+.keyboard-layout {
+	height: auto;
+	width: 85%;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
