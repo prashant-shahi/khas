@@ -23,3 +23,11 @@ body {
     font-family: 'Khas';
     font-size: 30px;
 }
+
+.red { color: #d9534f; }
+.green { color: #5cb85c; }
+.yellow { color: #ffc107; }
+.blue { color: #5bc0de }
+.skyblue { color: #428bca; }
+.light { color: #f9f9f9; }
+.dark { color: #343a40; }
