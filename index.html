@@ -2,20 +2,92 @@
 <head>
   <title></title>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+    @font-face {
+	  font-family: 'Khas';
+	  src: url('Khas.eot');
+	  src: url('Khas.eot?#iefix') format('embedded-opentype'),
+	  url('Khas.otf')  format('opentype'),
+	  url('Khas.woff') format('woff'),
+	  url('Khas.ttf')  format('truetype'),
+	  url('Khas.svg#Khas') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.preeti, .preeti textarea {
+	    font-family: preeti;
+	    font-size: 30px;
+	}
+
+	.khas, .khas textarea {
+	    font-family: 'Khas';
+	    font-size: 30px;
+	}
+
+	.red { color: #d9534f; }
+	.green { color: #5cb85c; }
+	.yellow { color: #ffc107; }
+	.blue { color: #5bc0de }
+	.skyblue { color: #428bca; }
+	.light { color: #f9f9f9; }
+	.dark { color: #343a40; }
+
+	button, input[type="button"], input[type="reset"], input[type="submit"] {
+	    cursor: pointer;
+	    -webkit-appearance: button;
+	}
+  </style>
 </head>
 <body>
   <div class="khas green">
   	<h2>
-  		oxfF v; kmf]]+6\ df 6fOk ug{'xf];\
+  		&nbsp;&nbsp;v; efiff cgnfOg 6fOlkª
   	</h2>
   </div>
   <div class="khas">
-    <textarea rows="8" dir="ltr" style="width: 90%; height: 310px;"></textarea>
+    <textarea id="UnicodeTextarea" rows="8" dir="ltr" style="width: 90%; height: 310px;" placeholder="oxfF v; kmf]]+6\ df 6fOk ug{'xf];\ ."></textarea>
   </div>
+  <div class="khas">
+	<button class="special-characters">™</button>
+	<button class="special-characters">¿</button>
+	<button class="special-characters">Ì</button>
+	<button class="special-characters">Å</button>
+	<button class="special-characters">ç</button>
+	<button class="special-characters">ß</button>
+	<button class="special-characters">¶</button>
+	<button class="special-characters">ß</button>
+	<button class="special-characters">Í</button>
+	<button class="special-characters">Î</button>
+	<button class="special-characters">Ë</button>
+	<button class="special-characters">‹</button>
+	<button class="special-characters">•</button>
+	<button class="special-characters">ˆ</button>
+	<button class="special-characters">˜</button>
+	<button class="1special-characters">§</button>
+	<button class="2special-characters">£</button>
+	<button class="2special-characters">¢</button>
+	<button class="2special-characters">¥</button>
+	<button class="special-characters">Ý</button>
+	<button class="special-characters">‰</button>
+	<button class="special-characters">¡</button>
+  </div>
+  <br/>
   <hr/><br/>
   <footer class="dark">
-   © 2019 - <a class="blue" href="https://github.com/CoolBoi567">Prashant Shahi</a>
+   &nbsp;&nbsp;&nbsp;&nbsp;© 2019 - <a class="blue" href="https://github.com/CoolBoi567">Prashant Shahi</a>
   </footer>
+  <script type="text/javascript">
+	$(".special-characters").each(function() {
+		var character = this.innerHTML;
+		$(this).click(function() {
+			$("#UnicodeTextarea").val($("#UnicodeTextarea").val().trim() + character)
+		})
+	});
+  </script>
 </body>
 </html>
